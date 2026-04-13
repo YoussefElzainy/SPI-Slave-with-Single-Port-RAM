@@ -176,39 +176,6 @@ The design uses an XDC file to map signals to FPGA pins including:
 
 ---
 
-## Project Structure
-
-```
-SPI-Slave-System/
-│
-├── RTL/
-│   ├── spi_slave.v
-│   ├── sync_ram.v
-│   └── spi_wrapper.v
-│
-├── TB/
-│   └── spi_tb.v
-│
-├── SIM/
-│   ├── spi.do
-│   └── waveform.png
-│
-├── SYNTH/
-│   ├── one_hot/
-│   ├── sequential/
-│   └── gray/
-│
-├── CONSTRAINTS/
-│   └── basys3.xdc
-│
-├── REPORT/
-│   └── SPI_Report.pdf
-│
-└── README.md
-```
-
----
-
 ## Tools Used
 
 * Verilog HDL
